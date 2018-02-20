@@ -1,6 +1,6 @@
-# *MathJax Bookmarklet*
+# 🔖 📐 💫 *MathJax Bookmarklet*
 
-*MathJax Bookmarklet* is a [bookmarklet](https://en.wikipedia.org/wiki/Bookmarklet) for rendering TeX/LaTeX and MathML notation on pages dynamically using the [MathJax](http://www.mathjax.org/) library.
+*MathJax Bookmarklet* is a [🔖 bookmarklet](https://en.wikipedia.org/wiki/Bookmarklet) for rendering 📐 TeX/LaTeX and MathML notation on pages dynamically 💫 using the [MathJax](http://www.mathjax.org/) library.
 
 Pages don't have to include `mathjax.js`.
 The library is included and configured dynamically. The LaTeX preprocessor will render equations delimited by `$...$` or by `\(...\)` (for inline maths) and `\[...\]` or `$$...$$` for display math.
@@ -11,6 +11,9 @@ The ASCIIMathML preprocessor will render equations delimited by ``` `...` ```.
 
 ## Install
 Install the bookmarklet **[HERE](https://naereen.github.io/mathjax-bookmarklet/)**.
+
+## [Known bug](https://github.com/Naereen/mathjax-bookmarklet/issues)
+- [#1](https://github.com/Naereen/mathjax-bookmarklet/issues/1) fails if a page failed to load MathJax (for instance a HTTPS page using an incorrect HTTP link to load MathJax). I don't know AT ALL how to tackle this, any idea is [welcome](https://github.com/Naereen/mathjax-bookmarklet/pulls).
 
 ## Build?
 Minify the bookmarklet from bookmarklet.js by using `uglifyjs bookmarklet.js -m`. (with UglifyJS2)
