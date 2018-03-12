@@ -21,7 +21,7 @@ Minify the bookmarklet from bookmarklet.js by using `uglifyjs bookmarklet.js -m`
 ---
 
 ### :scroll: License ? [![GitHub license](https://img.shields.io/github/license/Naereen/mathjax-bookmarklet.svg)](https://github.com/Naereen/mathjax-bookmarklet/blob/master/LICENSE)
-This (small) repository are published under the terms of the [MIT license](http://lbesson.mit-license.org/) (file [LICENSE](LICENSE)).
+This (small) repository is published under the terms of the [MIT license](http://lbesson.mit-license.org/) (file [LICENSE](LICENSE)).
 © [Lilian Besson](https://GitHub.com/Naereen), 2018.
 
 [![Maintenance](https://img.shields.io/badge/Maintenu%3F-oui-green.svg)](https://GitHub.com/Naereen/mathjax-bookmarklet/graphs/commit-activity)
